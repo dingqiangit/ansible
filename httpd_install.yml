@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: all
   tasks:
    - name: Install the web server and start it 
      yum:
